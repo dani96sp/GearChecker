@@ -1,0 +1,4 @@
+services:
+  gear-checker:
+    container_name: gear-checker
+    build: .

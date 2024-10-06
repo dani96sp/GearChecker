@@ -300,7 +300,6 @@ async function GetSummary(character) {
     **Gems**: ${character.Gems}
     **Armory**: ${character.Armory}
     **PVP items**: ${character.PVPGear.length === 0 ? "None" : pvpGearPattern + character.PVPGear.join(pvpGearPattern)}
-    **Achievements**: Type !achievements ${character.name} or !achi ${character.name}
     `
 }
 
