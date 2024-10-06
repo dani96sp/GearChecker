@@ -75,3 +75,15 @@ Example of usage:
 ![image](https://github.com/kikchan/Snuske/assets/26814080/60c1ef60-fa1a-443f-90c2-9db94f4bb28a)
 
 Feel free to join the [official Discord server](https://discord.gg/ZSDpeftAB7) of the bot here and ask/suggest me anything!
+
+
+## Docker first run / deploy changes
+After you change something, you need to stop it and build the image first with:
+```
+docker-compose down
+docker-compose build
+```
+Then just run it again with:
+```
+docker-compose up -d
+```
